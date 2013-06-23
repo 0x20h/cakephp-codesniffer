@@ -1,7 +1,7 @@
 {
     "name": "0x20h/cakephp-codesniffer",
     "description": "",
-    "type": "library",
+    "type": "composer-installer",
     "keywords": [
         "phpcs",
         "standard",
@@ -10,6 +10,8 @@
     "homepage": "http://cakephp.org/",
     "license": "MIT",
     "require": {
+				"composer/installers": "*",
+				"squizlabs/php_codesniffer": "1.*",
         "php": ">=5.1.2"
     }
 }

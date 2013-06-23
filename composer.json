@@ -1,7 +1,7 @@
 {
     "name": "0x20h/cakephp-codesniffer",
     "description": "",
-    "type": "composer-installer",
+    "type": "phpcs-standard",
     "keywords": [
         "phpcs",
         "standard",
@@ -13,5 +13,10 @@
 				"composer/installers": "*",
 				"squizlabs/php_codesniffer": "1.*",
         "php": ">=5.1.2"
-    }
+    },
+		"autoload": {
+				"psr-0": {
+						"Composer\\": "src",
+				}
+		}
 }

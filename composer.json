@@ -1,0 +1,37 @@
+{
+    "name": "0x20h/cakephp-codesniffer",
+    "description": "",
+    "type": "library",
+    "keywords": [
+        "phpcs",
+				"standard",
+				"cakephp"
+    ],
+    "homepage": "http://cakephp.org/",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+						"Sniffs/WhiteSpace/ScopeIndentSniff.php",
+						"Sniffs/WhiteSpace/FunctionOpeningBraceSpaceSniff.php",
+						"Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php",
+						"Sniffs/WhiteSpace/OperatorSpacingSniff.php",
+						"Sniffs/WhiteSpace/TabAndSpaceSniff.php",
+						"Sniffs/WhiteSpace/FunctionSpacingSniff.php",
+						"Sniffs/WhiteSpace/ScopeClosingBraceSniff.php",
+						"Sniffs/WhiteSpace/FunctionCallSpacingSniff.php",
+						"Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php",
+						"Sniffs/NamingConventions/ValidFunctionNameSniff.php",
+						"Sniffs/NamingConventions/ValidClassBracketsSniff.php",
+						"Sniffs/NamingConventions/ValidVariableNameSniff.php",
+						"Sniffs/NamingConventions/ValidTraitNameSniff.php",
+						"Sniffs/NamingConventions/ValidNamespaceNameSniff.php",
+						"Sniffs/Strings/ConcatenationSpacingSniff.php",
+						"Sniffs/Commenting/FunctionCommentThrowTagSniff.php",
+						"Sniffs/Formatting/OneClassPerUseSniff.php",
+						"Sniffs/Formatting/UseInAlphabeticalOrderSniff.php"
+        ]
+    },
+    "require": {
+        "php": ">=5.1.2"
+    }
+}

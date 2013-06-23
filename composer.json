@@ -20,7 +20,7 @@
             "Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php",
             "Sniffs/NamingConventions/ValidFunctionNameSniff.php",
             "Sniffs/NamingConventions/ValidVariableNameSniff.php",
-            "Sniffs/Strings/ConcatenationSpacingSniff.php",
+            "Sniffs/Strings/ConcatenationSpacingSniff.php"
         ]
     },
     "require": {

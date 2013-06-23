@@ -9,20 +9,6 @@
     ],
     "homepage": "http://cakephp.org/",
     "license": "MIT",
-    "autoload": {
-        "classmap": [
-            "Sniffs/WhiteSpace/ScopeIndentSniff.php",
-            "Sniffs/WhiteSpace/FunctionOpeningBraceSpaceSniff.php",
-            "Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php",
-            "Sniffs/WhiteSpace/OperatorSpacingSniff.php",
-            "Sniffs/WhiteSpace/ForceTabIndentSniff.php",
-            "Sniffs/WhiteSpace/FunctionSpacingSniff.php",
-            "Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php",
-            "Sniffs/NamingConventions/ValidFunctionNameSniff.php",
-            "Sniffs/NamingConventions/ValidVariableNameSniff.php",
-            "Sniffs/Strings/ConcatenationSpacingSniff.php"
-        ]
-    },
     "require": {
         "php": ">=5.1.2"
     }
